@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54a00cf03a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">My Creation</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#award">My Award</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hallo, I'm <span>Diki</span> <br>Pramana</h1>
+            <p>Mechanical Engineer</p>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Background 1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> 1`I am a seasoned professional committed to providing the highest quality work. With a strong educational background and expertise in machine design, I am always eager to face new challenges and learn from experience. I have the ability to adapt quickly, work efficiently in time, and be able to overcome problems with creative solutions. In addition, good communication skills allow me to interact effectively with various parties. I look forward to positively contributing and developing with a dynamic and innovative company</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('archievement')">Archievement</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>OFFICE</span><br>Office Tools</li>
+                        <li><span>DESIGN CAD</span><br>Autodesk Inventor, Autocad, Fusion 360, Solidworks</li>
+                        <li><span>SOFTWARE ENGINEERING</Li>
+                        <li><span>ANALYSIS FINITE ELEMEN METHOD</span><br>Autodesk Inventor, Nastran Patran & ANSYS Workbench Simulation</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>MAGANG SERVICE SOFTWARE AND HARDWARE KOMPUTER 2017/2019</span><br>Lathe & CNC 2-axis Machine Operators</li>
+                        <li><span>LSO MEKATRONIC UMM 2019/2023</span><br>Body Design and Manufacture</li>
+                        <li><span>MAGANG PT. DIRGANTARA INDONESIA 2022</span><br>Rancang Banngun dan Analisa Struktur - TD-3000 Division</li>
+                        <li><span>LSO MEKATRONIC UMM 2022/2023</span><br>Chairman</li>
+                        <li><span>IKATAN MAHASISWA MUHAMMADIYAH (IMM) 2019-2020</span><br>Bidang Akademik dan Bidang Keprofesian</li>
+                        <li><span>SCIENCE THINK UMM</span><br>Mengkoordinir dan mengarahkan alur jalannya proposal dalam proyek</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SD BALONGREJO 2 2009/2015</span><br>Students</li>
+                        <li><span>SMPN 6 NGANJUK 2015/2017</span><br>Students</li>
+                        <li><span>SMK AL-HUSNA LOCERET NGANJUK 2017/2019</span><br>Students</li>
+                        <li><span>UNIVERSITY of MUHAMMADIYAH MALANG 2019/2023</span><br>Mechanical Engineering Students</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="archievement">
+                    <ul>
+                        <li><span>KONTES MOBIL HEMAT ENERGI NASIONAL 2022</span><br>Prototipe Battery Electric Category</span><br>1st place</li>
+                        <li><span>SHELL ECO MARATHON ASIA PACIFIC 2023</span><br>Urban Concept Battery Electric Category</span><br>5th Place in Asia Pacific</li>
+                        <li><span>BOAT RACE COMPETITION COMET 3.0 PPNS</span><br>FINALIS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Creation</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-gears"></i>
+                <h2>My Book Collection</h2>
+                <p>Book Collection</p>
+                <a href="https://drive.google.com/drive/folders/157brx3BbGIBwlNlyB6zwvgEV-Ny3rPyY?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i>Link Acces</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>My 3D Design Tutorial Videos</h2>
+                <p>My Tutorial Videos</p>
+                <a href="https://drive.google.com/drive/folders/1zuDvjGb-19EOAQVY_bvG9UKxPACVUOe6?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i>Link Acces</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Ansys Workbench Simulation</h2>
+                <p>My Analisis and Tutorial Videos</p>
+                <a href="https://drive.google.com/drive/folders/1WK6kq7zv_f35hDLMhfJ5Hqg0Cvn6fNiF?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i>Link Acces</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-trophy"></i>
+                <h2>Archievement Certificate</h2>
+                <p>My Certificate</p>
+                <a href="https://drive.google.com/drive/folders/1aX1A6A4FgMh6hhBy9bf0uaW3xDGI13rl?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i>Link Acces</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Design</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="1.jpg">
+                <div class="layer">
+                <h3>Prototipe Battery Electric</h3>
+                <P>Desain Chassis Dilengkapi dengan Assembly Roda</P>
+                <a href="https://drive.google.com/drive/folders/1nVXhhw2LT9zE8akZwkbTcSnfpOGM4J8B?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="2.png">
+                <div class="layer">
+                <h3>Mesin Pencuci Galon Otomatis</h3>
+                <P>Desain Mesin Pencuci Galon Otomatis, dengan Brush Pencuci</P>
+                <a href="https://drive.google.com/drive/folders/1wXkZOmfEncbtTHC14FdgdW08NbyrkD3P?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="3.png">
+                <div class="layer">
+                <h3>Mobil Prototype Battery Electric</h3>
+                <P>Desain mobil ini dibuat dengan tujuan untuk berpartisipasi dalam Kompetisi Kontes Mobil Hemat Energi (KMHE)</P>
+                <a href="https://drive.google.com/drive/folders/1lpO9a7WS6KXETQjgIWi5NY3pLHd4TWXT?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="4.png">
+                <div class="layer">
+                <h3>Mesin Pelipat Baju Otomatis Berbasis Arduino</h3>
+                <P>Desain mesin ini bertujuan untuk melipat baju secara otomatis dalam waktu 5 detik</P>
+                <a href="https://drive.google.com/drive/folders/1P9wMWE1F5Ei47lsopVwaMV_P9g3nR872?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="5.png">
+                <div class="layer">
+                <h3>Mobil Urban Concept Battery Electric</h3>
+                <P>Desain mobil ini dibuat dengan tujuan untuk berpartisipasi dalam kompetisi Shell Eco Marathon Asia Pacific and Middle East</P>
+                <a href="https://drive.google.com/drive/folders/1m9t1djyYc30lCWLCuUKBDiDfXCvT5nYE?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="6.png">
+                <div class="layer">
+                <h3>Chassis Mobil Urban Concept Battery Electric</h3>
+                <P>Desain chassis ini dibuat dengan tujuan untuk menguji kekuatan strukturnya, dengan maksud untuk berpartisipasi dalam kompetisi Shell Eco Marathon Asia Pacific - Middle East</P>
+                <a href="https://drive.google.com/drive/folders/1xj4Qp3V1rffDln5nKX7UD9zfse_Oj1M_?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+              <div class="work">
+                <img src="222.png">
+                <div class="layer">
+                <h3>Desain Prototype Kapal Cepat Tak Berawak</h3>
+                <P>Desain Sangkaling Evo 3 merupakan Fuel Engine Remote Control yang menjuarai Best Design dan Juara 1 Performa FERC</P>
+                <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="2222.png">
+                <div class="layer">
+                <h3>Propulsi Sangkaling Evo 3</h3>
+                <P>Desain propulsi Kapal Sangkaling Evo 3</P>
+                <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="smr">See more</a>
+    </div>
+</div>
+
+<div id="award">
+    <div class="container">
+        <h1 class="sub-title">My Award</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="1. Piagam Pnghargaan Mahasiswa Berprestasi Fakultas Teknik Universitas Muhammadiyah Malang.jpg">
+                <div class="layer">
+                <h3>Piagam Penghargaan</h3>
+                <P>Mahasiswa Berprestasi Fakultas Teknik Universitas Muhammadiyah Malang Tahun 2023</P>
+                </div>
+            </div>
+            <div class="work">
+                <img src="2. Sertifikat Juara 1 Lomba Kontes Mobil Hemat Energi (KMHE) 2022.jpg">
+                <div class="layer">
+                <h3>Juara 1</h3>
+                <P>Kontes Mobil Hemat Energi 2023 Kelas Prototipe Listrik</P>
+                </div>
+            </div>
+            <div class="work">
+                <img src="3. Sertifikat Finalis Boat Race Competition Comet 3.0 PPNS.jpg">
+                <div class="layer">
+                <h3>Finalis</h3>
+                <P>Lomba Boat Race Competition Comet 3.0 PPNS Kategori Mahasiswa Dengan Tema “Developing Indonesian Tourism Potential in The Maritime Sector” Serta Tema Kapal Superyacht Catamaran</P>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-titel">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>dikipramana1922@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+62 819 4334 1138</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/home.php"><i class="fa-brands fa-square-facebook"></i></i></a>
+                    <a href="https://s.id/DikiPramana"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/drive/folders/12I-VSIMEBHqm1R7PpEjbt0Guex4L99OA?usp=sharing"smr smrr">Download CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
+
